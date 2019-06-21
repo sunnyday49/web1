@@ -1,0 +1,345 @@
+<?php include $_SERVER['DOCUMENT_ROOT']."/cfg/config.php";?>
+<head>
+<link href="/css/css.css" rel="stylesheet" type="text/css">
+<!-- <link href="/css/style-holwent.css" rel="stylesheet" type="text/css"> -->
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	left:19px;
+	top:296px;
+	width:167px;
+	height:186px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:19px;
+	top:678px;
+	width:167px;
+	height:244px;
+	z-index:2;
+}
+.style1 {color: #b46856}
+#Link1 a:link { color :#1111cc; }
+-->
+
+.hd-lc h4 {
+    font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-left: 28px;
+}
+p.des-lc span {
+    margin-right: 15px;
+}
+
+.hd-lc p.des-lc {
+    line-height: 22px;
+    font-size: 12px;
+    margin: 0px;
+}
+a.btn-hd-lc {
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    width: 145px;
+}
+
+a.btn-hd-lc img {
+    width: 100%;
+}
+.hd-lc {
+    position: relative;
+    padding-left: 3px;
+    float: left;
+    width: 100%;
+    margin-bottom: 17px;
+}
+.sm-lc {
+    padding-left: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sm-lc p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+a.milu-bt-link {
+    border: 1px solid #5f5e5e;
+    padding: 10px 135px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #333;
+    background: #cdcfd8;
+    font-size: 16px;
+}
+.hd-lc ul li {
+    font-size: 20px;
+    list-style-position: outside;
+   margin-top: 5px;
+  clear: both;
+  float: left;
+  width: 100%;
+  list-style: none;
+  float: left;
+margin-top: 12px !important;
+}
+.insert-screenshot {
+    margin: 3px 0px;
+}
+.insert-screenshot img {
+    max-width: 100%;
+}
+
+.num-steps {
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 0px;
+    font-family: arial;
+    float: left;
+margin-right: 12px;
+}
+
+.content-step{
+  float: left;
+}
+
+.clef{
+  clear: both;
+}
+.line-textd {
+    margin-left: 30px;
+    color: #e13a16;
+}
+</style>
+
+<script src="http://f1.nakanohito.jp/lit/index.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">try { var lb = new Vesicomyid.Bivalves("112503"); lb.init(); } catch(err) {} </script>
+
+</head>
+
+<body>
+<? if($ASP_NAME) { require_once $_SERVER['DOCUMENT_ROOT']."/asp_service/".$ASP_NAME."/".$ASP_NAME."_asp.php";  }?>
+<div id="Layer1"><?php include $_SERVER['DOCUMENT_ROOT']."/login/loginBox.php";?></div>
+<div id="Layer2">
+  <table width="167" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><img src="/images/left/left_boxtop_data.gif" width="167" height="47" /></td>
+    </tr>
+    <tr>
+      <td background="/images/left/left_body.gif" style="padding:0px 12px 0px 12px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><a href="/data/data.php"><img src="/images/left/data_m01ov.gif" width="143" height="24" border="0" /></a></td>
+          </tr>
+
+      </table></td>
+    </tr>
+    <tr>
+      <td><img src="/images/left/left_bottom.gif" width="167" height="18" /></td>
+    </tr>
+  </table>
+</div>
+<table width="960" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2">
+      <? include $_SERVER['DOCUMENT_ROOT']."/inc/top2.php"?>
+    </td>
+  </tr>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/inc/left_menu.html"; ?></td>
+    <td width="759" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="/images/data/sub_tit01.gif" width="759" height="114" /></td>
+        </tr>
+
+        <tr>
+          <td height="600" valign="top" background="/images/comm/sub_body_bg.gif" style="padding:16px 24px 0px 24px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><img src="/images/data/btit_01.gif" width="697" height="67" /></td>
+            </tr>
+          </table>
+            <table border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="34" valign="top"><img src="/images/data/img01.gif" width="597" height="31" /></td>
+              </tr>
+            </table>
+          <table border="0" align="center" cellpadding="6" cellspacing="1" bgcolor="#dbcfac" width="597">
+              <tr>
+    <td width="101" bgcolor="#fffae7">CPU</td>
+                <td width="215" bgcolor="#FFFFFF">PentiumⅣ　1.8GHz</td>
+                <td width="241" bgcolor="#FFFFFF">Intel Core 2 Duo (2GHz) 以上</td>
+              </tr>
+              <tr>
+                <td bgcolor="#fffae7">RAM</td>
+                <td bgcolor="#FFFFFF">4GB 以上</td>
+                <td bgcolor="#FFFFFF">4GB 以上</td>
+              </tr>
+              <tr>
+                <td bgcolor="#fffae7">グラフィックカード</td>
+                <td bgcolor="#FFFFFF">128MB以上のVRAMを有する3Dグラフィックカード</td>
+                <td bgcolor="#FFFFFF">Geforce 8500GT, Radeon HD3470 以上</td>
+              </tr>
+              <tr>
+                <td bgcolor="#fffae7">OS</td>
+                <td bgcolor="#FFFFFF">Microsoft Windows 7</td>
+                <td bgcolor="#FFFFFF">Microsoft Windows 7</td>
+              </tr>
+              <tr>
+                <td bgcolor="#fffae7">ハードディスクの<br>空き容量</td>
+                <td bgcolor="#FFFFFF" align="center">15GB 以上</td>
+    <td bgcolor="#FFFFFF" align="center">15GB 以上</td>
+              </tr>
+              <tr>
+                <td bgcolor="#fffae7">ウェブブラウザ</td>
+                <td colspan="2" bgcolor="#FFFFFF" align="center">Microsoft Internet Explorer 8.0 以降</td>
+              </tr>
+              <tr>
+                <td bgcolor="#fffae7">インターネット<br>回線速度</td>
+                <td bgcolor="#FFFFFF" align="center">ADSL 1.5Mbps 以上</td>
+                <td bgcolor="#FFFFFF" align="center">ADSL 10Mbps 以上</td>
+              </tr>
+            </table>
+   <br>
+   <div align="center">※「Windows10」環境下でのゲーム起動、プレイについては、サポート対象外となります。</div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="28">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><img src="/images/data/btit_02.png" width="697" height="35" /></td>
+              </tr>
+              <tr>
+                <td height="13">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="13">
+                  <div class="hd-lc">
+                  <h4>『MILU』Newゲームランチャー</h4>
+                  <div class="line-textd">※ KJCLUBからご登録の方は、下部の「旧インストール版」をご利用ください。</div>
+                  <ul>
+                    <li>
+                      <span class="num-steps">(1)</span>
+                      <div class="content-step">
+                        <p class="des-lc"> こちらからMILUのゲームランチャーをダウンロードしてください。</p> 
+                        <?php $urll = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/UploadText/data/up/link/lnk_launcher.txt');?>
+                        <a  class="btn-hd-lc" target="_blank" href="<?=$urll?>" title=""><img src="/lp/img/milu_landing2/btn-down.png" alt=""></a>
+                        <div class="clef"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="num-steps">(2)</span>
+                      <div class="content-step">
+                        <p class="des-lc"> ダウンロードしたファイルをダブルクリックして、インストールしてください。</p>
+                        <p class="insert-screenshot"><img src="/images/launcher/icon.png"></p>
+                        <div class="clef"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="num-steps">(3)</span>
+                      <div class="content-step">
+                        <p class="des-lc"> デスクトップまたはスタートメニュー内のショートカットをクリックして、<br>MILUのゲームランチャーを起動してください。</p>
+                        <p class="insert-screenshot"><img src="/images/launcher/shotcut.png"></p>
+                        <div class="clef"></div>
+                     </div>
+                    </li>
+                    <li>
+                      <span class="num-steps">(4)</span>
+                      <div class="content-step">
+                        <p class="des-lc"> ご登録時のIDおよびパスワードを使ってログインするか、<br>オープンIDボタンをクリックして、ログインしてください。</p>
+                        <p class="insert-screenshot"><img src="/images/launcher/st1.png" style="width: 249px;"></p>
+                        <div class="clef"></div>
+                    </div>
+                    </li>
+                    <li>
+                      <span class="num-steps">(5)</span>
+                      <div class="content-step">
+                        <p class="des-lc"> ログインが完了するとゲームに必要なファイルのダウンロードが始まります。<br>※ ダウンロード時間はインターネット回線の速度に左右されます。</p>
+                        <p class="insert-screenshot"><img src="/images/launcher/st2.png" style="width: 413px;"></p>
+                        <div class="clef"></div>
+                    </div>
+                    </li>
+                    <li>
+                      <span class="num-steps">(6)</span>
+                      <div class="content-step">
+                        <p class="des-lc"> ダウンロードが完了したら、「ゲームスタート」ボタンをクリックします。</p>
+                        <p class="insert-screenshot"><img src="/images/launcher/st3.png" style="width: 409px;"></p>
+                        <div class="clef"></div>
+                    </div>
+                    </li>
+                  </ul>
+              </div>
+                </td>
+              </tr>
+              <tr>
+                <td height="13" style="padding-left:40px"><table border="0" cellspacing="0" cellpadding="0">
+                <tr><td colspan="3"><h4 style="margin-top: 31px;font-size: 17px;">『MILU』旧インストール版および手動パッチ更新</h4></td></tr>
+                <tr><td colspan="3"><div class="line-textd" style="margin: 0px;margin-bottom: 18px;line-height: 19px;margin-left: 3px;">※ KJCLUBからご登録の方は、こちらの「旧インストール版」をご利用ください。<br>(新規インストールの場合は、手動パッチ更新は必要ございません。)</div></td></tr> 
+                  <tr>
+              <td><a href="http://www-miluonline.co-site.jp/milu_milu60.exe"><img src="/images/data/img02.gif" width="139" height="53" /></a></td>
+              <td><a href="http://dn1.milu.jp/MILU60_j282.zip">&nbsp;&nbsp;<img src="/images/data/img06.gif" width="139" height="53" /></a></td>
+              <td id="Link1" valign="bottom">&nbsp;&nbsp;<a href="http://www.milu.jp/news/notice_read.php?category=&idx=10533"  target="_blank">　※ 手動パッチ方法はこちら</a></td>
+                </table></td>
+              </tr>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="30">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><img src="/images/data/btit_03.gif" width="697" height="67" /></td>
+              </tr>
+			  <tr>
+                <td style="padding-left:30px;"><a href="http://ati.amd.com/support/driver.html" target="_blank"><img src="/images/data/AMD.gif" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.nvidia.co.jp/Download/index.aspx?lang=jp" target="_blank"><img src="/images/data/nvidia.gif" /></a></td>
+              </tr>
+			  <a name="3"></a>
+              <tr>
+                <td><img src="/images/data/btit_04.gif" width="697" height="66" /></td>
+              </tr>
+              <tr>
+                <td style="padding-left:40px"><a href="/data/client/DirectX9.zip"><img src="/images/data/img05.gif" width="181" height="47" /></a></td>
+              </tr>
+			       <tr>
+                <td><img src="/images/data/btit_05.jpg" width="697" height="75" /></td>
+              </tr>
+              <tr>
+                <td style="padding-left:40px"><a href="/data/client/KalydoPlayer_6.04.04.exe"><img src="/images/data/kalydo.png" width="170" height="59" /></a></td>
+              </tr>
+              <tr>
+                <td><img src="/images/data/btit_06.jpg" width="697" height="32" /></td>
+              </tr>
+              <tr>
+              <td style="padding-left:40px; padding-bottom:15px; padding-top:6px;">画面の最下部に表示されるインストールバーから「インストール」をクリックしてActiveXをインストールしてください。</td>
+              </tr>
+              <tr>
+                <td><img src="/images/data/bit_05_01.png" width="697" height="34" /></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td height="25" background="/images/comm/sub_body_bg.gif">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="/images/comm/sub_body_bottom.gif" width="759" height="18" /></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <? include $_SERVER['DOCUMENT_ROOT']."/inc/copy_main.php"?>
+          </td>
+        </tr>
+        <tr>
+          <td height="20">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>
